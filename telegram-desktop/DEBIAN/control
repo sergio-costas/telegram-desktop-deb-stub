@@ -1,0 +1,13 @@
+Package: telegram-desktop
+Architecture: all
+Version: 4.5.2
+Maintainer: Sergio Costas Rodriguez <sergio.costas@canonical.com>
+Description: fast and secure messaging application
+ Telegram is a messaging app with a focus on speed and security, it is
+ super-fast, simple and free. You can use Telegram on all your devices at the
+ same time — your messages sync seamlessly across any number of your phones,
+ tablets or computers.
+ .
+ This .deb package is a stub that installs the .snap version in your system.
+ If you prefer other formats, you can visit https://desktop.telegram.org/ for
+ other installation options.

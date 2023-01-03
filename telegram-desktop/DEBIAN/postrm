@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo
+echo "This telegram-desktop .deb package is just a stub that installs the .snap version."
+echo "To uninstall the snap version, you can use 'sudo snap remove telegram-desktop'"
+echo

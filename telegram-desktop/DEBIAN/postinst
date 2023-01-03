@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo
+echo "Telegram-desktop has been migrated from .deb to .snap format."
+echo "This is just a stub .deb package that installs the .snap for Telegram."
+echo "It allows to update the current systems to the last version of Telegram."
+echo "If you don't want to use the snap version, you can check other"
+echo "options at https://desktop.telegram.org/"
+echo
