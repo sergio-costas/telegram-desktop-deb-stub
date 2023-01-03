@@ -1,13 +1,20 @@
 Package: telegram-desktop
-Architecture: all
-Version: 4.5.2
+Architecture: amd64
+Version: 1:1snap1-0ubuntu1
 Maintainer: Sergio Costas Rodriguez <sergio.costas@canonical.com>
-Description: fast and secure messaging application
+Pre-Depends: debconf, snapd
+Depends: debconf (>= 0.5) | debconf-2.0
+Breaks: telegram-cli (<< 1:1snap1), telegram-desktop-dbgsym (<<1:1snap1)
+Replaces:  telegram-cli (<< 1:1snap1), telegram-desktop-dbgsym (<<1:1snap1)
+Priority: optional
+Description: transitional package - telegram -> telegram snap
  Telegram is a messaging app with a focus on speed and security, it is
  super-fast, simple and free. You can use Telegram on all your devices at the
  same time — your messages sync seamlessly across any number of your phones,
  tablets or computers.
  .
- This .deb package is a stub that installs the .snap version in your system.
+ This is a transitional dummy package. It can safely be removed.
+ Telegram-desktop is now replaced by the Telegram desktop snap.
+ .
  If you prefer other formats, you can visit https://desktop.telegram.org/ for
  other installation options.
