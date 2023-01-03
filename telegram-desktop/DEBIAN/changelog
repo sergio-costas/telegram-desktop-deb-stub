@@ -1,5 +1,0 @@
-telegram-desktop (4.5.2) multiverse; urgency=medium
-
- * migrated into a snap installer
-
--- Sergio Costas Rodriguez <sergio.costas@canonical.com>  Thu, 3 Jan 2023 12:57:00 0200
